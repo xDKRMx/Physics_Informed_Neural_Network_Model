@@ -19,7 +19,7 @@ This project utilizes Physics-Informed Neural Networks (PINNs) to predict the st
 
 ## Installation
 ```bash
-git clone https://github.com/xDKRMx/Strain_Stress_Displacement.git
+git clone https://github.com/xDKRMx/Strain_Stress_Displacement
 ```
 ## Usage
 - Define Displacement Functions: Modify u(x, y) and v(x, y) to define how displacement varies with coordinates.
