@@ -4,9 +4,11 @@ This project utilizes Physics-Informed Neural Networks (PINNs) to predict the st
 
 ## Features
 - Predicts strain, stress, and displacement for given materials.
-- Considers temperature effects and can be extended to include friction, pressure, and other factors.
+- Considers the displacement accuracy based on the dimensional complexity, such as 1D,2D,3D.
 - Provides graphical visualization of predictions.
-
+- Seperable PINN system has been used
+- Non-dimensionalization technics have been used
+  
 ## Prerequisites
 - Python 3.x
 - JAX
@@ -17,7 +19,7 @@ This project utilizes Physics-Informed Neural Networks (PINNs) to predict the st
 
 ## Installation
 ```bash
-pip install jax equinox optax matplotlib numpy
+git clone https://github.com/xDKRMx/Strain_Stress_Displacement.git
 ```
 ## Usage
 - Define Displacement Functions: Modify u(x, y) and v(x, y) to define how displacement varies with coordinates.
